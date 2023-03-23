@@ -51,6 +51,8 @@ a:hover {
 
 #intro {
     padding: 0 2rem 15rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 #intro p {
@@ -70,7 +72,7 @@ a:hover {
 }
 
 #contact {
-    padding: 5rem 20rem 6rem 20rem;
+    padding: 5rem 0 6rem 0;
     background-color: var(--plum);
     text-align: center;
     
@@ -185,6 +187,11 @@ footer nav ul {
     color: var(--aqua);
   }
 
+  .gradient {
+    background: linear-gradient(90deg, rgba(255,23,228,1) 0%, rgba(134,251,251,1) 100%);
+    height: 2px;
+  }
+
 
 
 @media screen and (min-width: 750px) {
@@ -192,5 +199,11 @@ footer nav ul {
         flex-basis: auto;
         margin-right: auto;
         text-align: left;
+    }
+
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 2.5rem;
     }
 }
