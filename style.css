@@ -211,20 +211,30 @@ nav [class*='fa']:hover {
 
     .text {
         order: 2;
-        text-align: right;
-        grid-column: 5/ 11;
+        text-align: left;
+        grid-column: 1 / 7;
     }
 
     #projects ul {
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
+
     .image {
-        grid-column: 1/ 7;
+        grid-column: 5/ 11;
     }
 
     .text, .image {
         grid-row: 1 / 2;
+    }
+
+    .white-box {
+        background-color: var(--white);
+        border-radius: 7px;
+        padding: 1rem;
+        color: var(--black);
+        font-size: 1rem;
+        line-height: 1.5;
     }
 }
 
