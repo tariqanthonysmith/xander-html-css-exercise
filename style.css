@@ -47,6 +47,8 @@ a:hover {
     color: var(--hotmag);
 }
 
+/* Intro Section */
+
 #intro {
     padding: 0 2rem 15rem 2rem;
 }
@@ -85,4 +87,110 @@ a:hover {
 #contact a:hover {
     text-decoration: none;
     color:aquamarine;
+}
+
+/* Nav Section*/
+
+.navlinks {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    font-family: var(--mono);
+
+}
+
+.navlinks li a {
+    text-decoration: none;
+    transition: color 0.4s ease;
+    color: var(--white);
+    font-size: 1.15rem;
+}
+
+.navlinks li a:hover {
+    color: var(--hotmag);
+}
+
+.navlinks li:first-child a {
+    font-family: var(--sans);
+}
+
+.navlinks li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav [class*='fa'] {
+    color: var(--aqua);
+    font-size: 150%;
+    transition: color 0.4s ease;
+}
+
+nav [class*='fa']:hover {
+    color: var(--hotmag);
+}
+
+.navlinks li a.call-to-action {
+    background-color: var(--magenta);
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+
+}
+
+.navlinks li a.call-to-action:hover {
+    background-color: var(--hotmag);
+    color: var(--white);
+}
+
+footer {
+    padding: 0.5rem 0;
+  }
+  
+  footer p,
+  footer p small {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.675rem;
+  }
+  
+  footer p small {
+    font-size: 1rem;
+  }
+
+footer nav ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 2rem;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 1rem 0;
+  }
+  
+  footer nav ul li a [class*="fa"] {
+    color: var(--magenta);
+    transition: all 0.4s ease;
+  }
+  
+  footer nav ul li a [class*="fa"]:hover {
+    color: var(--aqua);
+  }
+
+
+
+@media screen and (min-width: 750px) {
+    .navlinks li:first-child {
+        flex-basis: auto;
+        margin-right: auto;
+        text-align: left;
+    }
 }

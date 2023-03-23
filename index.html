@@ -6,8 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Style a HTML Page</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
   </head>
   <body>
+    <nav>
+      <!-- Nav Section-->
+      <ul class="navlinks">
+        <li>
+          <a href="#">
+          <i class="fas fa-code" aria-hidden="true"></i>Tariq Smith</a>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</span>
+           </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="call-to-action">Resume</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Intro Section -->
     <section id="intro">
         <p class="name">Hi, my name is <span>Tariq Smith</span></p>
         <h2>I develop and design the front-end of websites and back-end systems.</h2> 
@@ -23,5 +65,36 @@
       </p>
       <a href="mailto: tariq.smith@xandertalent.com" class="email-link">Email Me</a>
     </section>
+    <footer>
+      <p>Tariq Smith · Developer</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+              <span class="sr-only">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span class="sr-only">Email</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p>
+        <small>
+          <i class="fa-regular fa-copyright" aria-hidden="ture"></i>
+          Tariq Smith. All Rights Reserved.
+        </small>
+      </p>
+    </footer>
   </body>
 </html>
