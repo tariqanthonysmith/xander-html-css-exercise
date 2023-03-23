@@ -48,7 +48,7 @@ a:hover {
 }
 
 #intro {
-    padding: 0 2rem 10rem 2rem;
+    padding: 0 2rem 15rem 2rem;
 }
 
 #intro p {
@@ -65,4 +65,24 @@ a:hover {
     font-size: 4rem;
     color: var(--aqua);
     display: block;
+}
+
+#contact {
+    padding: 5rem 20rem 6rem 20rem;
+    background-color: var(--plum);
+    text-align: center;
+    
+}
+
+#contact p {
+    padding-bottom: 2.5rem;
+}
+
+#contact a{
+    color: var(--aqua);
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color:aquamarine;
 }
